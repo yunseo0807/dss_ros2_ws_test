@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (dss_ros2_bridge) JobQueued: {'identifier': 'dss_ros2_bridge', 'dependencies': OrderedDict()}
+[0.000716] (dss_ros2_bridge) JobStarted: {'identifier': 'dss_ros2_bridge'}
+[0.006362] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'cmake'}
+[0.007238] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/tukorea/ros2_ws/src/dss_ros2_bridge/dss_ros2_bridge', '-DCMAKE_INSTALL_PREFIX=/home/tukorea/ros2_ws/install/dss_ros2_bridge'], 'cwd': '/home/tukorea/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tukorea'), ('OLDPWD', '/home/tukorea'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', '110-16'), ('WSL_INTEROP', '/run/WSL/313_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tukorea/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038079] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099876] (-) TimerEvent: {}
+[0.111691] (dss_ros2_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.126842] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200058] (-) TimerEvent: {}
+[0.217619] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.220071] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.226378] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.235272] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.245875] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.271756] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.273528] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300128] (-) TimerEvent: {}
+[0.400365] (-) TimerEvent: {}
+[0.500672] (-) TimerEvent: {}
+[0.600977] (-) TimerEvent: {}
+[0.701313] (-) TimerEvent: {}
+[0.801667] (-) TimerEvent: {}
+[0.902003] (-) TimerEvent: {}
+[1.002332] (-) TimerEvent: {}
+[1.102815] (-) TimerEvent: {}
+[1.203207] (-) TimerEvent: {}
+[1.303516] (-) TimerEvent: {}
+[1.403812] (-) TimerEvent: {}
+[1.504117] (-) TimerEvent: {}
+[1.604417] (-) TimerEvent: {}
+[1.704723] (-) TimerEvent: {}
+[1.805032] (-) TimerEvent: {}
+[1.905356] (-) TimerEvent: {}
+[2.005658] (-) TimerEvent: {}
+[2.106017] (-) TimerEvent: {}
+[2.206324] (-) TimerEvent: {}
+[2.306652] (-) TimerEvent: {}
+[2.406980] (-) TimerEvent: {}
+[2.507287] (-) TimerEvent: {}
+[2.607615] (-) TimerEvent: {}
+[2.707947] (-) TimerEvent: {}
+[2.808260] (-) TimerEvent: {}
+[2.908559] (-) TimerEvent: {}
+[3.008879] (-) TimerEvent: {}
+[3.060235] (dss_ros2_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.109000] (-) TimerEvent: {}
+[3.118853] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.119980] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.153546] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.166891] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.198637] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.209113] (-) TimerEvent: {}
+[3.309467] (-) TimerEvent: {}
+[3.324146] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.409613] (-) TimerEvent: {}
+[3.477227] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.509744] (-) TimerEvent: {}
+[3.537237] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.549278] (dss_ros2_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.563065] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.563148] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.563179] (dss_ros2_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.589378] (dss_ros2_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.609885] (-) TimerEvent: {}
+[3.645143] (dss_ros2_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[3.654900] (dss_ros2_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/tukorea/ros2_ws/build/dss_ros2_bridge\n'}
+[3.662269] (dss_ros2_bridge) CommandEnded: {'returncode': 0}
+[3.663393] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'build'}
+[3.663417] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tukorea/ros2_ws/build/dss_ros2_bridge', '--', '-j20', '-l20'], 'cwd': '/home/tukorea/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tukorea'), ('OLDPWD', '/home/tukorea'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', '110-16'), ('WSL_INTEROP', '/run/WSL/313_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tukorea/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.686326] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_generator_c\x1b[0m\n'}
+[3.690663] (dss_ros2_bridge) StdoutLine: {'line': b'[  1%] Built target dss_ros2_bridge__cpp\n'}
+[3.695028] (dss_ros2_bridge) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_dss_ros2_bridge\n'}
+[3.695658] (dss_ros2_bridge) StdoutLine: {'line': b'[  7%] Built target dss_ros2_bridge__rosidl_generator_c\n'}
+[3.696149] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.697583] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.698723] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.700895] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.701388] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.702533] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_c\x1b[0m\n'}
+[3.707667] (dss_ros2_bridge) StdoutLine: {'line': b'[ 17%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_cpp\n'}
+[3.707968] (dss_ros2_bridge) StdoutLine: {'line': b'[ 17%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c\n'}
+[3.708192] (dss_ros2_bridge) StdoutLine: {'line': b'[ 23%] Built target dss_ros2_bridge__rosidl_typesupport_cpp\n'}
+[3.708339] (dss_ros2_bridge) StdoutLine: {'line': b'[ 28%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_cpp\n'}
+[3.708737] (dss_ros2_bridge) StdoutLine: {'line': b'[ 33%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c\n'}
+[3.708841] (dss_ros2_bridge) StdoutLine: {'line': b'[ 39%] Built target dss_ros2_bridge__rosidl_typesupport_c\n'}
+[3.709948] (-) TimerEvent: {}
+[3.715535] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSPointCloudNode\x1b[0m\n'}
+[3.715696] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSClockNode\x1b[0m\n'}
+[3.715754] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSIMUNode\x1b[0m\n'}
+[3.715781] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSImageNode\x1b[0m\n'}
+[3.715908] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSToROSGpsNode\x1b[0m\n'}
+[3.715972] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DSSDemoNode\x1b[0m\n'}
+[3.743343] (dss_ros2_bridge) StdoutLine: {'line': b'[ 53%] Built target DSSToROSGpsNode\n'}
+[3.743526] (dss_ros2_bridge) StdoutLine: {'line': b'[ 53%] Built target DSSToROSClockNode\n'}
+[3.743564] (dss_ros2_bridge) StdoutLine: {'line': b'[ 60%] Built target DSSToROSPointCloudNode\n'}
+[3.744334] (dss_ros2_bridge) StdoutLine: {'line': b'[ 69%] Built target DSSDemoNode\n'}
+[3.744814] (dss_ros2_bridge) StdoutLine: {'line': b'[ 76%] Built target DSSToROSImageNode\n'}
+[3.744953] (dss_ros2_bridge) StdoutLine: {'line': b'[ 83%] Built target DSSToROSIMUNode\n'}
+[3.754025] (dss_ros2_bridge) StdoutLine: {'line': b'[ 83%] Built target dss_ros2_bridge\n'}
+[3.763769] (dss_ros2_bridge) StdoutLine: {'line': b'[ 85%] Built target dss_ros2_bridge__py\n'}
+[3.768627] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_generator_py\x1b[0m\n'}
+[3.775616] (dss_ros2_bridge) StdoutLine: {'line': b'[ 89%] Built target dss_ros2_bridge__rosidl_generator_py\n'}
+[3.780734] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.780839] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.781074] (dss_ros2_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dss_ros2_bridge__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.786901] (dss_ros2_bridge) StdoutLine: {'line': b'[ 96%] Built target dss_ros2_bridge__rosidl_typesupport_c__pyext\n'}
+[3.786995] (dss_ros2_bridge) StdoutLine: {'line': b'[ 96%] Built target dss_ros2_bridge__rosidl_typesupport_introspection_c__pyext\n'}
+[3.787240] (dss_ros2_bridge) StdoutLine: {'line': b'[100%] Built target dss_ros2_bridge__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.803071] (dss_ros2_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[3.803464] (dss_ros2_bridge) StdoutLine: {'line': b'writing dss_ros2_bridge.egg-info/PKG-INFO\n'}
+[3.803829] (dss_ros2_bridge) StdoutLine: {'line': b'writing dependency_links to dss_ros2_bridge.egg-info/dependency_links.txt\n'}
+[3.803872] (dss_ros2_bridge) StdoutLine: {'line': b'writing top-level names to dss_ros2_bridge.egg-info/top_level.txt\n'}
+[3.805134] (dss_ros2_bridge) StdoutLine: {'line': b"reading manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[3.805864] (dss_ros2_bridge) StdoutLine: {'line': b"writing manifest file 'dss_ros2_bridge.egg-info/SOURCES.txt'\n"}
+[3.810053] (-) TimerEvent: {}
+[3.818973] (dss_ros2_bridge) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_dss_ros2_bridge_egg\n'}
+[3.825065] (dss_ros2_bridge) CommandEnded: {'returncode': 0}
+[3.826017] (dss_ros2_bridge) JobProgress: {'identifier': 'dss_ros2_bridge', 'progress': 'install'}
+[3.830792] (dss_ros2_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tukorea/ros2_ws/build/dss_ros2_bridge'], 'cwd': '/home/tukorea/ros2_ws/build/dss_ros2_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/tukorea'), ('OLDPWD', '/home/tukorea'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', '110-16'), ('WSL_INTEROP', '/run/WSL/313_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/USER/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tukorea/ros2_ws/build/dss_ros2_bridge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.834489] (dss_ros2_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.834727] (dss_ros2_bridge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.834823] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/rosidl_interfaces/dss_ros2_bridge\n'}
+[3.834992] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__functions.h\n'}
+[3.835092] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__struct.h\n'}
+[3.835148] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.h\n'}
+[3.835176] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/dss_control.h\n'}
+[3.835200] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.835312] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/library_path.sh\n'}
+[3.835353] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/library_path.dsv\n'}
+[3.835420] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_fastrtps_c.h\n'}
+[3.835449] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.835552] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__builder.hpp\n'}
+[3.835613] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__struct.hpp\n'}
+[3.835645] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__traits.hpp\n'}
+[3.835691] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__type_support.hpp\n'}
+[3.835723] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/dss_control.hpp\n'}
+[3.835789] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.835862] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.835925] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.836006] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_introspection_c.h\n'}
+[3.836067] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.836142] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/include/dss_ros2_bridge/dss_ros2_bridge/msg/detail/dss_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.836196] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/pythonpath.sh\n'}
+[3.836245] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/pythonpath.dsv\n'}
+[3.836353] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.836402] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.836465] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.836524] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.836675] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/__init__.py\n'}
+[3.836745] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_c.c\n'}
+[3.836788] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.836894] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/_dss_ros2_bridge_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.837074] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837161] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837229] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837263] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/libdss_ros2_bridge__rosidl_generator_py.so\n'}
+[3.837287] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/__init__.py\n'}
+[3.837311] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control.py\n'}
+[3.837332] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg/_dss_control_s.c\n'}
+[3.837402] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837426] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837445] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/dss_ros2_bridge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837464] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.idl\n'}
+[3.837485] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg\n'}
+[3.837557] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSImageNode\n'}
+[3.837622] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSClockNode\n'}
+[3.837652] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSPointCloudNode\n'}
+[3.837731] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSIMUNode\n'}
+[3.837801] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSToROSGpsNode\n'}
+[3.837831] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/DSSDemoNode\n'}
+[3.837931] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/dss_ros2_bridge/libdss_ros2_bridge__rosidl_typesupport_cpp.so\n'}
+[3.837967] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/msg/DssControl.msg\n'}
+[3.838026] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/launch/launch.py\n'}
+[3.838063] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/package_run_dependencies/dss_ros2_bridge\n'}
+[3.838126] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/parent_prefix_path/dss_ros2_bridge\n'}
+[3.838167] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/ament_prefix_path.sh\n'}
+[3.838241] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/ament_prefix_path.dsv\n'}
+[3.838277] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/path.sh\n'}
+[3.838335] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/environment/path.dsv\n'}
+[3.838367] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.bash\n'}
+[3.838430] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.sh\n'}
+[3.838469] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.zsh\n'}
+[3.838531] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/local_setup.dsv\n'}
+[3.838574] (dss_ros2_bridge) StdoutLine: {'line': b'-- Symlinking: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/package.dsv\n'}
+[3.843044] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/ament_index/resource_index/packages/dss_ros2_bridge\n'}
+[3.843129] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake-extras.cmake\n'}
+[3.843203] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.843237] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.843262] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.843320] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.843366] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.843441] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.843477] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridgeConfig.cmake\n'}
+[3.843501] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridgeConfig-version.cmake\n'}
+[3.843566] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/package.xml\n'}
+[3.844036] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_c.so\n'}
+[3.844440] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_c.so\n'}
+[3.844725] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.845106] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_c.so\n'}
+[3.845432] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_c.so\n'}
+[3.845897] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_introspection_cpp.so\n'}
+[3.846329] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_typesupport_cpp.so\n'}
+[3.864352] (dss_ros2_bridge) StdoutLine: {'line': b"Listing '/home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge'...\n"}
+[3.864437] (dss_ros2_bridge) StdoutLine: {'line': b"Compiling '/home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/__init__.py'...\n"}
+[3.864466] (dss_ros2_bridge) StdoutLine: {'line': b"Listing '/home/tukorea/ros2_ws/install/dss_ros2_bridge/local/lib/python3.10/dist-packages/dss_ros2_bridge/msg'...\n"}
+[3.866902] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/lib/libdss_ros2_bridge__rosidl_generator_py.so\n'}
+[3.867166] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cExport.cmake\n'}
+[3.867198] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.867434] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.867490] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.867683] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_cppExport.cmake\n'}
+[3.867939] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.867977] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.868170] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.868228] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.868409] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cExport.cmake\n'}
+[3.868454] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.868620] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.868651] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.868852] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cppExport.cmake\n'}
+[3.868890] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/dss_ros2_bridge__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.869093] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_pyExport.cmake\n'}
+[3.869135] (dss_ros2_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/tukorea/ros2_ws/install/dss_ros2_bridge/share/dss_ros2_bridge/cmake/export_dss_ros2_bridge__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.870581] (dss_ros2_bridge) CommandEnded: {'returncode': 0}
+[3.882533] (dss_ros2_bridge) JobEnded: {'identifier': 'dss_ros2_bridge', 'rc': 0}
+[3.882880] (-) EventReactorShutdown: {}
