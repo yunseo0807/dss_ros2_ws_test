@@ -1,0 +1,3 @@
+[submodule "src/dss_ros2_bridge"]
+	path = src/dss_ros2_bridge
+	url = https://github.com/kimbyoungkyu/dss_ros2_bridge.git
